@@ -99,6 +99,7 @@ class MyArt : ComponentActivity() {
          // val addDayPackedVM: AddDayVM = hiltViewModel()
          val rewardedAdEventListener = RewardedYandexEventList(settingVM)
          rewardedAd = RewardedAd(this)
+
          val AD_UNIT_ID_YA = if (BuildConfig.DEBUG) "R-M-DEMO-rewarded-client-side-rtb" else  BuildConfig.AD_UNIT_ID_YA
          rewardedAd?.setAdUnitId(AD_UNIT_ID_YA)
          rewardedAd?.setRewardedAdEventListener(rewardedAdEventListener)
