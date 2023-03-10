@@ -2,6 +2,8 @@ package com.evg3559programmer.overtimecalendar.composeUI
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.pm.ApplicationInfo
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -71,6 +73,7 @@ import com.yandex.mobile.ads.rewarded.Reward
 import com.yandex.mobile.ads.rewarded.RewardedAd
 import com.yandex.mobile.ads.rewarded.RewardedAdEventListener
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.metadata.flagsOf
 
 val Context.dataStore by dataStore("app-setting.json", AppSettingSerializer)
 
@@ -93,11 +96,10 @@ class MyArt : ComponentActivity() {
          val mainMenuVM: MainMenuViewModel = hiltViewModel()
          val settingVM: SettingsVM = hiltViewModel()
          val aboutVM: AboutVM = hiltViewModel()
-
          // val addDayPackedVM: AddDayVM = hiltViewModel()
          val rewardedAdEventListener = RewardedYandexEventList(settingVM)
          rewardedAd = RewardedAd(this)
-         val AD_UNIT_ID_YA = if (BuildConfig.DEBUG) "R-M-DEMO-rewarded-client-side-rtb" else "R-M-1586362-3"    //R-M-DEMO-rewarded-client-side-rtb  R-M-1586362-3
+         val AD_UNIT_ID_YA = if (BuildConfig.DEBUG) "R-M-DEMO-rewarded-client-side-rtb" else  BuildConfig.AD_UNIT_ID_YA
          rewardedAd?.setAdUnitId(AD_UNIT_ID_YA)
          rewardedAd?.setRewardedAdEventListener(rewardedAdEventListener)
          val navController = rememberNavController()

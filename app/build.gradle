@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
     id 'org.jetbrains.kotlin.android'
     id("org.jetbrains.kotlin.plugin.serialization") version "1.7.20"
     id 'kotlin-kapt'
@@ -8,9 +9,6 @@ plugins {
     id 'com.google.gms.google-services'
     id 'com.google.firebase.crashlytics'
 }
-
-
-
 
 android {
     namespace 'com.evg3559programmer.overtimecalendar'
@@ -22,13 +20,15 @@ android {
         targetSdk 33
         versionCode 48
         versionName '1.41-debug'
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary true
         }
-    }
 
+    }
+    secrets {
+        defaultPropertiesFileName = 'local.properties'
+    }
     buildTypes {
         debug {
 //            minifyEnabled true
@@ -38,6 +38,7 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

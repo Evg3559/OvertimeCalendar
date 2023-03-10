@@ -50,6 +50,9 @@
       мой - ca-app-pub-3970876985598698~8624852442
      -->
         <meta-data
+            android:name="key_AD_UNIT_ID_YA"
+            android:value="${AD_UNIT_ID_YA}" />
+        <meta-data
             android:name="firebase_crashlytics_collection_enabled"
             android:value="false"/>
         <!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
