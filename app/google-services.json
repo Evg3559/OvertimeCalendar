@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "637145057527",
+    "project_id": "overtimecalendar-313109",
+    "storage_bucket": "overtimecalendar-313109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637145057527:android:016bf6ec10448bc07b6bf2",
+        "android_client_info": {
+          "package_name": "com.evg3559programmer.overtimecalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637145057527-nubks4dccqjf9inq3rr2udoq5o4udejj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evg3559programmer.overtimecalendar",
+            "certificate_hash": "a25438a0c2ada7166e620fb2e898f396ab0ff616"
+          }
+        },
+        {
+          "client_id": "637145057527-ddr8111ijq346aikf3k8hagojs3rnbgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCevKE-pIy6lG3Nm9XO6-zPO_rtnl5oOVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637145057527-ddr8111ijq346aikf3k8hagojs3rnbgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

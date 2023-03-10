@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мій табель</string>
+    <string name="abouttext1">Табель годин. Версія програми %1$s</string>
+    <string name="abouttext2"><u>Сторінка розробника у вконтакте \nvk.com/kolobok_programmer.</u> \nНатисніть для відкриття в браузері</string>
+    <string name="abouttext3">Програма є безкоштовною, під час її використання може показуватися реклама. \nВсі дані зберігаються в смартфоні.</string>
+    <string name="abouttext4"><u>Сайт розробника kolobok-prog.my1.ru</u></string>
+    <string name="Starting">Завантаження…</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="TotalClock">Час</string>
+    <string name="TotalShifts">Зміни</string>
+    <string name="Month">Місяць</string>
+    <string name="added">Доданий</string>
+    <string name="сhanged">Змінений</string>
+    <string name="save">Зберігши</string>
+    <string name="saved">Збережений</string>
+    <string name="years">%1$d %2$s % 3$d роки</string>
+    <string name="Edit_Your_name">Введіть Ваше ім\'я:</string>
+    <string name="name_user_start">Анонім</string>
+    <string name="ready">Готово</string>
+    <string name="ifComment">Коментар, якщо потрібно</string>
+    <string name="Cancel">Скасування</string>
+    <string name="addDay">Додавши</string>
+    <string name="changeDay">Змінивши</string>
+    <string name="timeWorked">Відпрацьований час:</string>
+    <string name="editingDay">Відредагуйте день</string>
+    <string name="hintUsername">довжиною від 3 до 20 символів на RU або ENG</string>
+    <string name="firstPreferences">Перший запуск програми</string>
+    <string name="nameOfUser">Ваше ім\'я</string>
+    <string name="titleSetting">Настройка</string>
+    <string name="date">Дата</string>
+    <string name="cancel2">Скасувати</string>
+    <string name="time">Час</string>
+    <string name="comment">Опис</string>
+    <string name="color">Колір</string>
+    <string name="delete">Вилучити</string>
+    <string name="number_of_launches">Кількість запусків програми: %1$d</string>
+    <string name="vkURLstring">https://vk.com/kolobok_programmer</string>
+    <string name="siteURLstring">https://kolobok-prog.my1.ru/</string>
+    <string name="hours1">%1$d г.</string>
+    <string name="helloMyFriend">Привіт, %1$s</string>
+    <string name="January">Січень</string>
+    <string name="January1">Січень</string>
+    <string name="February">Лютого</string>
+    <string name="March">Березень</string>
+    <string name="April">Квітень</string>
+    <string name="May">Травень</string>
+    <string name="June">Червень</string>
+    <string name="July">Липень</string>
+    <string name="September">Вересень</string>
+    <string name="August">Серпень</string>
+    <string name="Oktober">Жовтень</string>
+    <string name="November">Листопад</string>
+    <string name="December">Грудень</string>
+    <string name="ErrorDate">Невірна дата</string>
+    <string name="February1">Лютий</string>
+    <string name="March1">Березень</string>
+    <string name="April1">Квітень</string>
+    <string name="May1">Травень</string>
+    <string name="June1">Червень</string>
+    <string name="July1">Липень</string>
+    <string name="August1">Серпень</string>
+    <string name="September1">Вересень</string>
+    <string name="Oktober1">Жовтень</string>
+    <string name="November1">Листопад</string>
+    <string name="December1">Грудень</string>
+    <string name="ErrorDate1">Невірна дата</string>
+    <string name="fisrtStart">Перший запуск</string>
+    <string name="startComment">Це коментар, натиснувши на нього, вилізе підказка з продовженням коментаря. Ти можеш видалити цей день або відредагувати</string>
+    <string name="title_activity_drawer_main_">Мій табель</string>
+    <string name="navigation_drawer_open">Відкрити меню</string>
+    <string name="navigation_drawer_close">Закрити меню</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Список днів</string>
+    <string name="menu_settings">Настройка</string>
+    <string name="menu_slideshow">Редагування дня!</string>
+    <string name="abouttext5"><u>Відкрити програму в Плеймаркеті</u></string>
+    <string name="menu_about">Про програму</string>
+    <string name="Addingaday">Редагування дня</string>
+    <string name="Choose_AddDay">Виберіть потрібну дату</string>
+    <string name="Multiple_AddDay">Множинне додавання</string>
+    <string name="manyhours">Навряд чи може бути відпрацьовано більше %1$d ч. перенесіть час на інший день</string>
+    <string name="manyMinutes">Зайві записані хвилини будуть переведені в години</string>
+    <string name="changedEntry">Відредагувати</string>
+    <string name="start_AddDay">Почавши</string>
+    <string name="next_AddDay">далі</string>
+    <string name="success_AddDay">Успішно</string>
+    <string name="error_AddDay">Помилка</string>
+    <string name="willbechanged">День %2$d %1$s\nіснує і буде замінений</string>
+    <string name="titledelete">Підтвердження видалення</string>
+    <string name="reallyDelete">Видалити %1$s?</string>
+    <string name="reallyDeleteSelected">Видалити вибрані дні?</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="deleted">Запис видалено</string>
+    <string name="deletecancel">Видалення скасовано</string>
+    <string name="hoursabbrev">г.</string>
+    <string name="no_days">У цьому місяці нічого немає</string>
+    <string name="about_language">Мова програми залежить від мови системи</string>
+    <string name="SelectColor">Вибери колір комірки:</string>
+    <string name="GPURLstring" translatable="false">https://play.google.com/store/apps/details?id=com.evg3559programmer.overtimecalendar</string>
+    <string name="calendar_title">Календар</string>
+    <string name="description">Введіть опис</string>
+    <string name="chosePallete_string">Не вибирайте яскраві кольори, щоб не порушувалася гармонійність кольорів</string>
+
+
+    <!-- календарь -->
+    <array name="material_calendar_weeks_array">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Нд</item>
+    </array>
+    <array name="weeks_array">
+        <item>пн</item>
+        <item>вт</item>
+        <item>ср</item>
+        <item>чт</item>
+        <item>пт</item>
+        <item>сб</item>
+        <item>нд</item>
+    </array>
+
+    <array name="material_calendar_months_array">
+        <item>Січень</item>
+        <item>Лютий</item>
+        <item>Березень</item>
+        <item>Квітень</item>
+        <item>Травень</item>
+        <item>Червень</item>
+        <item>Липень</item>
+        <item>Серпень</item>
+        <item>Вересень</item>
+        <item>Жовтень</item>
+        <item>Листопад</item>
+        <item>Грудень</item>
+    </array>
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+    <string name="myMenu">Моє меню</string>
+
+    <!-- Header меню -->
+    <string name="menu_header_name">Ім\'я</string>
+    <string name="add_shift_mainmenu">Додати зміну</string>
+    <string name="list_shifts_mainmenu">Список змін</string>
+    <string name="with_calendar_mainmenu"> </string>
+    <string name="settings_mainmenu">Настройка</string>
+    <string name="about_mainmenu">Про програму</string>
+    <string name="hint_mainmenu">Підказка</string>
+    <string name="today_headermenu">Сьогодні</string>
+    <string name="hours_month_headermenu">Час За місяць</string>
+    <string name="hours_all_headermenu">Всього часу</string>
+    <string name="shifts_per_month_menuheader">Змін за місяць</string>
+    <string name="shifts_all_time_menuheader">Всього змін</string>
+    <string name="header_shifts">" змiн"</string>
+    <string name="header_shifts1">" змiн"</string>
+    <string name="header_shifts2">" змiн"</string>
+    <string name="hint_1">Натискання на дату в списку виділяє його для подальших операцій.</string>
+    <string name="hint_2">Другий ряд карток на головному екрані клікабелен. Спочатку вони показують зведені дані за місяць. Якщо на них натиснути, то покажуть дані за весь накопичений час.</string>
+    <!--<string name="hint_3">3. У розділі \"вид з календарем\" можна вибрати зміни, які необхідно порахувати. Можна вибрати зміни навіть з іншого Місяця. <i>Цей розділ в розробці.</i></string>
+    -->
+    <string name="hint_3">Кнопки дій при виділенні. \n1. Скинути виділення \n2. Введення відпрацьованих годин \n3. Введення коментаря \n4.Вибір кольору \n5. Видалення виділених</string>
+    <string name="hint_4">5. Елементи списків клікабельні. Вискакує підказка з роз\'ясненням.</string>
+    <string name="hint_5">Не вибирайте яскраві кольори, щоб не порушувалася гармонійність кольорів. Це дозволить уникнути різких контрастних кольорів і принесе більш приємний досвід використання цієї програми</string>
+
+    <string name="calendar_navgraph">Календар</string>
+    <string name="about_navgraph">Про програму</string>
+    <string name="settings_navgraph">Настройка</string>
+    <string name="edit_navgraph">Редагування</string>
+    <string name="listdays_navgraph">Список змін</string>
+    <string name="hints_navgraph">Підказка</string>
+    <string name="splash_migrateBD">Перехід на нову БД</string>
+    <string name="hint_aboutName">Ваше ім\'я видно тільки вам</string>
+    <string name="myFirstWorkedDay">Мій перший робочий день</string>
+    <string name="mySecondWorkedDay">Мій другий відпрацьований день</string>
+    <string name="count_Starting">Кількість запусків програми:</string>
+    <string name="hoursAbbr">г.</string>
+    <string name="minuteAbbr">мін.</string>
+    <string name="ProlicyPrivacyText"><u>Політика конфіденційності</u></string>
+    <string name="okPrivacyPolicy">Натискаючи \"Готово\" ви погоджуєтеся з <u>політикою конфіденційності</u></string>
+    <string name="deleteAllShifts_settings">Видалити всі зміни</string>
+    <string name="Delete">Видалити</string>
+    <string name="cleanAllData_settings">Видалити всі дані Користувача</string>
+    <string name="plsLongPress_settings">Утримуйте довго</string>
+    <string name="questionDeleteAllData">Ви дійсно хочете видалити всі дані? Повернути назад буде неможливо!</string>
+    <string name="questionDeleteShifts">Ви дійсно хочете видалити всі зміни? Повернути назад буде неможливо!</string>
+    <string name="questionErrorDelete">Незрозуміле питання. Але ви згодні?</string>
+    <string name="deleted_setting">Видалений</string>
+    <string name="likes_settings">Раді, що ви залишаєтеся з нами</string>
+    <string name="nowUser_setting">"Тепер ви  %1$s"</string>
+    <string name="VerySorry_setting">Дуже шкода, але ви видалили всі свої дані. Перейменування не вийде</string>
+    <string name="serviceSector_text_setting">Службовий</string>
+    <string name="DateTableStart_export">Початкова дата:</string>
+    <string name="DateTableEnd_export">Кінцева дата: </string>
+    <string name="NumberTable_export">Кількість записів: %1$d шт.</string>
+    <string name="ChoosePlace_export">Виберіть місце збереження натиснувши на кнопку</string>
+    <string name="InProccess_export">У процесі</string>
+    <string name="FileNameCSV_export">Відпрацьовані дні.csv</string>
+    <string name="FileNameXLS_export">Відпрацьовані дні.xls</string>
+    <string name="FileNameErr_export">Вибрано невідомий формат файлу</string>
+    <string name="ExportButton_export">Експорт</string>
+    <string name="Result_export">Результат роботи:</string>
+    <string name="NoSave_export">Не збережено</string>
+    <string name="Success_export">Збережено в </string>
+    <string name="Error_export">Помилка</string>
+    <string name="Date_export">Дата</string>
+    <string name="TimeWorked_export">Відпрацьований час</string>
+    <string name="Comment_export">"Коментар"</string>
+    <string name="TotalTable_export">В сумі</string>
+    <string name="TotalShifts_export">%1$d змін</string>
+
+    <string name="OkMessage">Готово</string>
+    <string name="CheckTimeTable_export">Виберіть формат часу</string>
+    <string name="pr_points_remaining">Залишилося pr-балів::</string>
+    <string name="_1_pr_export">-1 pr-бал</string>
+    <string name="have0prPoint_export">У вас %1$d преміум балів. Чи хочете ви використовувати функцію в борг?</string>
+    <string name="youMinus3prPoints_export">У вас великий борг. Поповніть преміум бали подивившись відео-рекламу в налаштуваннях програми</string>
+    <string name="premuim_text_setting">У вас %1$d преміум балів</string>
+    <string name="adv_button_setting">Реклама</string>
+    <string name="addPoints_text2_setting">Щоб додати балів подивіться відео рекламу</string>
+    <string name="enoughPremium_setting">У вас достатньо преміум балів</string>
+    <string name="prPointsSector_setting">Преміум бали</string>
+    <string name="addedPrPointString_setting">Отримано %1$d балів</string>
+    <string name="errorLoadAds_setting">Не вдалося завантажити рекламу: %1$s</string>
+    <string name="freePoint_setting">Безкоштовний бал за неможливість завантажити рекламу</string>
+    <string name="setPlusList">Плюсик в списку</string>
+    <string name="setPlusCalendar">Плюсик в календарі</string>
+    <string name="setCompactList">Компактні списки</string>
+    <string name="errorMessages_set">Повідомлення про помилки</string>
+    <string name="senderrorMessages_set">"Надсилати дані про помилки"</string>
+    <string name="accumulatederrors_set">Є не відправлені помилки</string>
+    <string name="sendReports_question">Надіслати дані про помилки?</string>
+    <string name="send_button">Відправивши</string>
+    <string name="sending_button">Відправлятися</string>
+    <string name="deleteRepors_question">Видалити звіти не відправляючи?</string>
+
+
+
+
+    <!--Пакетное добавление -->
+    <string name="workDay_packAdd">" - робочий день"</string>
+    <string name="weekendDay_packAdd">" - вихідний день"</string>
+    <string name="howManyFill_packAdd">Скільки днів заповнити?</string>
+    <string name="selectStartFilling_packAdd">Виберіть дату початку заповнення</string>
+    <string name="CancelButton_packAdd">Скасування</string>
+    <string name="ToAcceptButton_packAdd">Прийняти</string>
+    <string name="Insufficient_packAdd">Недостатньо коштів</string>
+    <string name="working_debt_Text_packAdd">Не вистачає преміум балів, працюємо в борг?</string>
+    <string name="somethingWrong_packAdd">Щось пішло не так</string>
+    <string name="enough_prPoint_packAdd">У вас недостатньо преміум балів</string>
+    <string name="addOneShift_text_packAdd">Додавання однієї зміни безкоштовно,</string>
+    <string name="f3to10_text_packAdd">від 3 до 10 змін - 1 бал,</string>
+    <string name="f11to20_text_packAdd">від 11 до 20 змін - 2 бали,</string>
+    <string name="f21to30_text_packAdd">від 21 до 30 змін - 3 бали і т.д.</string>
+    <string name="youaddShifts_text_packAdd">Ви додаєте %1$d змін</string>
+    <string name="costAdding_text_packAdd">Вартість додавання %1$d преміум балів</string>
+    <string name="youhavePrPoint_packAdd">У вас %1$d преміум балів</string>
+    <string name="toFill_packAdd">Заповнивши</string>
+    <string name="ReplaceDays_packAdd">Замінити існуючі дні</string>
+    <string name="SkipDays_packAdd">Пропустити існуючі дні</string>
+    <string name="matchesShifts_packAdd">Збігів з існуючими змінами: %1$d</string>
+    <string name="matchesNo_packAdd">Збігів з існуючими змінами немає</string>
+    <string name="hoursPerDay_packAdd">Відпрацьований час:</string>
+    <string name="dialShifts_packAdd">Наберіть цикл змін</string>
+    <string name="hours">" - години"</string>
+    <string name="minute">" - хвилин"</string>
+    <string name="sheetsAddPacked"><u>Додати кілька змін (new)</u></string>
+    <string name="export_text">Експорт</string>
+    <string name="addedShifts_text">Додавання змін</string>
+
+
+
+    <!--Главное меню -->
+    <string name="MainMenu_menu">Головне меню</string>
+    <string name="ListDays_menu">Список днів</string>
+    <string name="Export_menu">Експорт</string>
+    <string name="AddDay_menu">Додати зміну</string>
+    <string name="calendar_menu">Календар</string>
+    <string name="Settings_menu">Настройка</string>
+    <string name="Hints_menu">Підказка</string>
+    <string name="About_menu">Про програму</string>
+    <string name="Editing_menu">Додавання/редагування</string>
+    <string name="RecoveryDB">Відновлення бд</string>
+
+    <string name="anonimous">Anonimous</string>
+    <string name="totalByColor">Разом по квітам</string>
+
+
+    <!--экспорт -->
+    <string-array name="CheckColors_export">
+        <item>Залишити заливку фону</item>
+        <item>Прибрати заливку фону</item>
+    </string-array>
+    <string-array name="CheckTimeTable_export">
+        <item>0 г. 00 мін.</item>
+        <item>0:00</item>
+    </string-array>
+</resources>

@@ -1,0 +1,327 @@
+<resources>
+    <string name="count_Starting">Number of program launches:</string>
+    <string name="abouttext1">Timesheet. Program version  %1$s</string>
+    <string name="abouttext2"><u>Developer\'s page in Vkontakte \nvk.com/kolobok_programmer.</u> \nClick to open in the browser</string>
+    <string name="abouttext3">The program is free of charge, but it is possible to display ads during use. \nAll data is stored in the smartphone.</string>
+    <string name="abouttext4"><u>Developer\'s website kolobok-prog.my1.ru</u></string>
+    <string name="app_name">Timesheet</string>
+    <string name="TotalClock">Time</string>
+    <string name="TotalShifts">Shifts</string>
+    <string name="Month">Month</string>
+    <string name="added">Added</string>
+    <string name="сhanged">Changed</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+
+    <string name="years">%1$d %2$s %3$d years</string>
+    <string name="Edit_Your_name">Enter Your name</string>
+    <string name="name_user_start">Anonymous</string>
+    <string name="ready">Ready</string>
+    <string name="ifComment">Comment, if necessary</string>
+    <string name="Cancel">Cancel</string>
+    <string name="addDay">Аppend</string>
+    <string name="changeDay">Change</string>
+    <string name="timeWorked">Time worked:</string>
+    <string name="editingDay">Edit day</string>
+    <string name="hintUsername">length from 3 to 20 characters in RU or ENG</string>
+    <string name="firstPreferences">First start</string>
+    <string name="nameOfUser">User name</string>
+    <string name="titleSetting">Settings</string>
+    <string name="date">Date</string>
+    <string name="cancel2">Cancel</string>
+    <string name="time">Time</string>
+    <string name="comment">Comment</string>
+    <string name="color">Color</string>
+    <string name="delete">Delete</string>
+    <string name="number_of_launches">Number of program runs: %1$d</string>
+    <string name="vkURLstring">https://vk.com/kolobok_programmer</string>
+    <string name="siteURLstring">https://kolobok-prog.my1.ru/</string>
+    <string name="hours1">%1$d h.</string>
+    <string name="helloMyFriend">Welcome, %1$s</string>
+    <string name="January">January</string>
+    <string name="January1">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="September">September</string>
+    <string name="August">August</string>
+    <string name="Oktober">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="ErrorDate">Error date</string>
+    <string name="February1">February</string>
+    <string name="March1">March</string>
+    <string name="April1">April</string>
+    <string name="May1">May</string>
+    <string name="June1">June</string>
+    <string name="July1">July</string>
+    <string name="August1">August</string>
+    <string name="September1">September</string>
+    <string name="Oktober1">October</string>
+    <string name="November1">November</string>
+    <string name="December1">December</string>
+    <string name="ErrorDate1">Error date</string>
+    <string name="fisrtStart">The first opening of the program</string>
+    <string name="startComment">This is a comment, clicking on it will pop up a hint with the continuation of the comment. You can delete  or edit this day</string>
+    <string name="title_activity_drawer_main_">Time Shift</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">List of days</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_slideshow">Editing the day</string>
+    <string name="GPURLstring">https://play.google.com/store/apps/details?id=com.evg3559programmer.overtimecalendar</string>
+    <string name="abouttext5"><u>Open in PlayMarket</u></string>
+    <string name="menu_about">About</string>
+    <string name="Addingaday">Editing the day</string>
+    <string name="Choose_AddDay">Select the desired date</string>
+    <string name="Multiple_AddDay">Multiple addition</string>
+    <string name="manyhours">It is unlikely that more than %1$d hours can be worked. Move the time to another day</string>
+    <string name="manyMinutes">The extra minutes recorded will be converted to hours</string>
+    <string name="changedEntry">Edit</string>
+    <string name="start_AddDay">To begin</string>
+    <string name="next_AddDay">further</string>
+    <string name="success_AddDay">Successfully</string>
+    <string name="error_AddDay">fault</string>
+    <string name="willbechanged">The existing day of %1$s %2$d\nwill be replaced</string>
+    <string name="description">Enter a description</string>
+    <string name="chosePallete_string">Do not choose bright colors so that the harmony of the colors of the application is not disturbed</string>
+
+
+    <!-- Диалог вопроса об удалении записи-->
+    <string name="titledelete">Confirm</string>
+    <string name="reallyDelete">Delete %1$s?</string>
+    <string name="reallyDeleteSelected">Delete selected days?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deleted">Deleted</string>
+    <string name="deletecancel">Cancel</string>
+    <string name="hoursabbrev">h.</string>
+    <string name="no_days">There\'s nothing in this month</string>
+    <string name="about_language">The program language depends on the system language</string>
+    <string name="SelectColor">Choose the color of the cell:</string>
+    <string name="calendar_title">Calendar</string>
+
+    <!-- календарь -->
+    <array name="material_calendar_weeks_array">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </array>
+    <array name="weeks_array">
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
+        <item>sun</item>
+    </array>
+
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+
+    <!--Тестовый AdMob app ID: ca-app-pub-3940256099942544~3347511713
+        мой - ca-app-pub-3970876985598698~8624852442        -->
+    <string name="admobID" translatable="false">ca-app-pub-3970876985598698~8624852442</string>
+
+    <!-- тестовый ="ca-app-pub-3940256099942544/6300978111">
+     мой ="ca-app-pub-3970876985598698/8101191967">
+    тестовое устройство мой Xiaomi-->
+    <string name="admobcaappID" translatable="false">ca-app-pub-3970876985598698/8101191967</string>
+    <string name="myMenu">My menu</string>
+
+    <!-- Header меню -->
+    <string name="menu_header_name">Name</string>
+    <string name="today_headermenu">Today</string>
+    <string name="hours_month_headermenu">Hours per month</string>
+    <string name="hours_all_headermenu">Hours for all time</string>
+    <string name="shifts_per_month_menuheader">Shifts per month</string>
+    <string name="shifts_all_time_menuheader">Shifts for all time</string>
+    <string name="header_shifts">" shifts"</string>
+    <string name="header_shifts1">" shifts"</string>
+    <string name="header_shifts2">" shifts"</string>
+
+    <!-- main меню -->
+    <string name="add_shift_mainmenu">Add a shift</string>
+    <string name="list_shifts_mainmenu">List of shifts</string>
+    <string name="with_calendar_mainmenu"> </string>
+    <string name="settings_mainmenu">Settings</string>
+    <string name="about_mainmenu">About</string>
+    <string name="hint_mainmenu">Hint</string>
+
+    <!-- имена для таблаяут меню -->
+    <string name="calendar_navgraph">Calendar</string>
+    <string name="about_navgraph">About</string>
+    <string name="settings_navgraph">Settings</string>
+    <string name="edit_navgraph">Editing</string>
+    <string name="listdays_navgraph">List of shifts</string>
+    <string name="hints_navgraph">Hints</string>
+
+    <!-- подсказки -->
+    <string name="hint_1">Press on a date in the list highlights it for further operations.</string>
+    <string name="hint_2">The second row of cards on the main screen is clickable. Initially, they show summary data for the month. If you click on them, they will show data for all the accumulated time.</string>
+   <!-- <string name="hint_3">3. In the \"calendar view\" section, you can select the shifts that need to be counted. You can choose shifts even from another month. <i>This section is under development.</i></string>
+    -->
+    <string name="hint_3">Action buttons when selecting items. \n1. Reset the selection \n2. Entering the hours worked \n3. Entering a comment \n4.Color selection \n5. Deleting selected</string>
+    <string name="hint_4">5. List items are clickable. A hint pops up with an explanation.</string>
+    <string name="hint_5">Do not choose bright colors so that the harmony of the colors of the application is not disturbed. This will avoid sharp contrasting colors and bring a more pleasant experience of using this program.</string>
+
+    <!-- /SplashScreen -->
+      <string name="Starting">Starting…</string>
+      <string name="splashscreen">SplashScreen</string>
+      <string name="splash_migrateBD">Migrate a new DB</string>
+    <string name="hint_aboutName">Your name is visible only to you</string>
+
+    <string name="myFirstWorkedDay">My first working day</string>
+    <string name="mySecondWorkedDay">My second day worked</string>
+
+    <string name="hoursAbbr">h.</string>
+    <string name="minuteAbbr">min.</string>
+    <string name="ProlicyPrivacyText"><u>Privacy Policy</u></string>
+    <string name="okPrivacyPolicy">By clicking \"Ready\" you agree to the <u>privacy policy</u></string>
+
+    <!--Конфигурация -->
+    <string name="deleteAllShifts_settings">Delete all shifts</string>
+    <string name="Delete">Delete</string>
+    <string name="cleanAllData_settings">Delete all user data</string>
+    <string name="plsLongPress_settings">Hold for a long time</string>
+    <string name="questionDeleteAllData">Do you really want to delete all the data? It will be impossible to return it back!</string>
+    <string name="questionDeleteShifts">Do you really want to delete all shifts? It will be impossible to return it back!</string>
+    <string name="questionErrorDelete">An incomprehensible question. But do you agree?</string>
+    <string name="deleted_setting">Deleted</string>
+    <string name="likes_settings">We are glad that you are staying with us</string>
+    <string name="nowUser_setting">Now you are %1$s</string>
+    <string name="VerySorry_setting">It\'s a pity, but you deleted all your data. Renaming will not work</string>
+    <string name="serviceSector_text_setting">Service</string>
+    <string name="premuim_text_setting">You have %1$d premium points</string>
+    <string name="adv_button_setting">Advertisement</string>
+    <string name="addPoints_text2_setting">To add points, watch the video ad</string>
+    <string name="addedPrPointString_setting">Received %1$d points</string>
+    <string name="errorLoadAds_setting">Failed to load the ad: %1$s</string>
+    <string name="freePoint_setting">Free point for not being able to load ads</string>
+    <string name="setPlusList">Plus sign in the lists</string>
+    <string name="setPlusCalendar">Plus sign in the calendar</string>
+    <string name="setCompactList">Compact lists view</string>
+    <string name="errorMessages_set">Error messages</string>
+    <string name="senderrorMessages_set">"Send error data"</string>
+    <string name="accumulatederrors_set">There are unsent errors</string>
+    <string name="sendReports_question">Send bug reports?</string>
+    <string name="send_button">Send</string>
+    <string name="sending_button">in process</string>
+    <string name="deleteRepors_question">Delete reports without sending?</string>
+
+
+
+
+    <!--Пакетное добавление -->
+    <string name="workDay_packAdd">" - working day"</string>
+    <string name="weekendDay_packAdd">" - weekend day"</string>
+    <string name="howManyFill_packAdd">How many days to fill?</string>
+    <string name="selectStartFilling_packAdd">Select the start date of filling in</string>
+    <string name="CancelButton_packAdd">Cancel</string>
+    <string name="ToAcceptButton_packAdd">Accept</string>
+    <string name="Insufficient_packAdd">Insufficient funds</string>
+    <string name="working_debt_Text_packAdd">Not enough premium points, are we working on debt?</string>
+    <string name="somethingWrong_packAdd">Something went wrong</string>
+    <string name="enough_prPoint_packAdd">You don\'t have enough premium points</string>
+    <string name="addOneShift_text_packAdd">Adding one shift is free,</string>
+    <string name="f3to10_text_packAdd">from 3 to 10 shifts - 1 point,</string>
+    <string name="f11to20_text_packAdd">from 11 to 20 shifts - 2 points,</string>
+    <string name="f21to30_text_packAdd">from 21 to 30 shifts - 3 points, etc.</string>
+    <string name="youaddShifts_text_packAdd">You add %1$d shifts</string>
+    <string name="costAdding_text_packAdd">The cost of adding %1$d premium points</string>
+    <string name="youhavePrPoint_packAdd">You have %1$d premium points</string>
+    <string name="toFill_packAdd">To fill</string>
+    <string name="ReplaceDays_packAdd">Replace existing days</string>
+    <string name="SkipDays_packAdd">Skip existing days</string>
+    <string name="matchesShifts_packAdd">Matches with existing shifts: %1$d</string>
+    <string name="matchesNo_packAdd">There are no matches with existing shifts</string>
+    <string name="hoursPerDay_packAdd">Time worked:</string>
+    <string name="dialShifts_packAdd">Dial the shift cycle</string>
+    <string name="hours">" - hours"</string>
+    <string name="minute">" - minutes"</string>
+    <string name="OkMessage">Done</string>
+
+
+    <!--Главное меню -->
+    <string name="MainMenu_menu">Main Menu</string>
+    <string name="ListDays_menu">List of days</string>
+    <string name="Export_menu">Export</string>
+    <string name="AddDay_menu">Add a shift</string>
+    <string name="calendar_menu">Calendar</string>
+    <string name="Settings_menu">Settings</string>
+    <string name="Hints_menu">Hints</string>
+    <string name="About_menu">About</string>
+    <string name="Editing_menu">Adding/editing</string>
+    <string name="RecoveryDB">Recovery DB</string>
+
+
+
+
+    <!--"Экспорт" -->
+    <string name="DateTableStart_export">"Starting date: "</string>
+    <string name="DateTableEnd_export">"End date: "</string>
+    <string name="NumberTable_export">Number of records: 5 %1$d pcs.</string>
+    <string name="ChoosePlace_export">Select the save location by clicking on</string>
+    <string name="InProccess_export">In process</string>
+    <string name="FileNameCSV_export">DaysWorked.csv</string>
+    <string name="FileNameXLS_export">DaysWorked.xls</string>
+    <string name="FileNameErr_export">Unknown file format is selected</string>
+    <string name="ExportButton_export">Export</string>
+    <string name="Result_export">The result of the work:</string>
+    <string name="NoSave_export">Not saved</string>
+    <string name="Success_export">"Saved in "</string>
+    <string name="Error_export">Error</string>
+    <string name="Date_export">Date</string>
+    <string name="TimeWorked_export">Time Worked</string>
+    <string name="Comment_export">"Comment"</string>
+    <string name="TotalTable_export">In total</string>
+    <string name="TotalShifts_export">%1$d shifts</string>
+
+
+    <string name="CheckTimeTable_export">Select the time format</string>
+    <string name="pr_points_remaining">PR-points remaining:</string>
+    <string name="_1_pr_export">-1 pr-points</string>
+    <string name="have0prPoint_export">You have %1$d premium points. Do you want to use the feature on loan?</string>
+    <string name="youMinus3prPoints_export">You have a big debt. Top up your premium points by watching video ads in the app settings</string>
+    <string name="enoughPremium_setting">Do you have enough premium points</string>
+    <string name="prPointsSector_setting">Premium Points</string>
+    <string name="sheetsAddPacked"><u>Add multiple shifts (new)</u></string>
+    <string name="export_text">Export</string>
+    <string name="addedShifts_text">Adding shifts</string>
+    <string name="anonimous">Anonimous</string>
+    <string name="totalByColor">Total by Color</string>
+
+    <string-array name="CheckColors_export">
+        <item>Keep the background fill</item>
+        <item>Remove background fill</item>
+    </string-array>
+    <string-array name="CheckTimeTable_export">
+        <item>0 h. 00 min</item>
+        <item>0:00</item>
+    </string-array>
+</resources>
