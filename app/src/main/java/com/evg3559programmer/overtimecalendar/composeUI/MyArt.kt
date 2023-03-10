@@ -2,8 +2,6 @@ package com.evg3559programmer.overtimecalendar.composeUI
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.content.pm.ApplicationInfo
-import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
 import android.view.View
