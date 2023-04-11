@@ -567,7 +567,7 @@ fun ChooseDate(
             today = LocalDate.now(),
             monthContainer = { SimpleViewMonthContainer(it) },
             dayContent = { SimpleViewDayContent(dayState = it, selectedDate, choosing, listWorkedDay, workedMinEntered, IDday, commentEntered, colorEntered, addDayVM, mainMenuVM) },
-            weekHeader = { SimpleViewWeekHeader(daysOfWeek = it) },
+            daysOfWeekHeader = { SimpleViewWeekHeader(daysOfWeek = it) },
             monthHeader = { SimpleViewMonthHeader(monthState = it) },
          )
       }

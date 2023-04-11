@@ -265,7 +265,7 @@ fun MyTopBar(navController: NavController, adsViewModel: AdsViewModel = viewMode
 //переключение на другие экраны закрыть рекламу через две секунды и по возвращении показать рекламу вновь.
 @Composable
 fun MyAdsBar(adsViewModel: AdsViewModel = viewModel()) {
-   val AD_UNIT_ID = if (BuildConfig.DEBUG) "R-M-DEMO-320x50" else "R-M-1586362-1"   //R-M-1586362-1   R-M-DEMO-320x50
+   val AD_UNIT_ID = if (BuildConfig.DEBUG) "R-M-DEMO-320x50" else BuildConfig.AD_UNIT_ID_YA   //R-M-1586362-1   R-M-DEMO-320x50
    val visibleAds = adsViewModel.visibleAds.observeAsState(View.VISIBLE ).value        //показывать скрывать только BannerAdView на всякий случай для корректного засчитывания рекламы
    val visibleBar = adsViewModel.visibleBar.observeAsState().value ?: true                //показывать скрывать весь бар полностью
    val visibleCross = adsViewModel.visibleCross.observeAsState().value ?: false           //показывать скрывать крестик закрытия

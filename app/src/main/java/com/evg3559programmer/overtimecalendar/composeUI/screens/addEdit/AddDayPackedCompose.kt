@@ -299,7 +299,7 @@ fun ViewCalendar(viewmodel: AddDayVM) {
          today = LocalDate.now(),
          monthContainer = { MonthContainer(it) },
          dayContent = { DayContent(dayState = it, viewmodel) },
-         weekHeader = { WeekHeader(daysOfWeek = it) },
+         daysOfWeekHeader = { WeekHeader(daysOfWeek = it) },
          monthHeader = { MonthHeader(monthState = it) },
       )
    }

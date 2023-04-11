@@ -114,7 +114,7 @@ fun CalendarScreen (navController: NavController, mainMenuVM: MainMenuViewModel)
             today = LocalDate.now(),
             monthContainer = { CalendarViewMonthContainer(it) },
             dayContent = { CalendarViewDayContent(dayState = it, id, selectedDate, listWorkedDay, workedMinEntered, commentEntered, colorEntered, showButtons, vm, composableScope) },
-            weekHeader = { CalendarViewWeekHeader(daysOfWeek = it) },
+            daysOfWeekHeader = { CalendarViewWeekHeader(daysOfWeek = it) },
             monthHeader = { CalendarViewMonthHeader(monthState = it) },
          )
       }
